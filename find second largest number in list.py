@@ -3,9 +3,10 @@ largest=list[0]
 second=list[0]
 for i in list: 
     if i>largest:
-        largest=i
         second=largest
-       
-print(second)        
+        largest=i
+    elif i>second:
+        second=i   
+print(second)      
     
 
